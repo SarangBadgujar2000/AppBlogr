@@ -4,10 +4,10 @@ export default function Logo({ width = "100px", className = "md:text-3xl text-2x
   return (
     <Link
       to="/"
-      className={`py-2 px-5 rounded-full bg-none dark:bg-[#1a1a25] border-gray-300 w-[${width}] ${className}`}
+      className={`py-2 px-5 rounded-full bg-none dark:bg-[#1a1a25] border-gray-300 hover:bg-slate-200  w-[${width}] ${className}`}
     >
       <h1 className="font-lato text-gray-700 dark:text-white">
-      App <span className="text-blue-500 dark:text-[#f189ff] font-[600] font-inter">Blogr</span>
+      App <span className="text-red-500 dark:text-[#f189ff] font-[600] font-inter">Blogr</span>
       </h1>
     </Link>
   );

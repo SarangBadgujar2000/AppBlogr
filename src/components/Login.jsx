@@ -52,7 +52,7 @@ export default function Login() {
           Don&apos;t have any account?&nbsp;
           <Link
             to="/signup"
-            className="font-medium text-primary transition-all duration-200 hover:underline"
+            className="font-medium text-primary transition-all duration-200 hover:underline hover:text-blue-500"
           >
             Sign Up
           </Link>

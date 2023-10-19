@@ -69,7 +69,7 @@ export default function Header() {
                           isActive
                             ? "bg-[#f4f4ff] dark:bg-[#2e2e31] text-[#4437f0] dark:text-purple-200"
                             : "bg-white dark:bg-[#18181b]  text-gray-900 dark:text-white"
-                        } font-nunito-sans md:text-lg text-base font-[500] duration-200 hover:bg-gray-50 hover:shadow-sm  `}
+                        } font-nunito-sans md:text-lg text-base font-[500] duration-200 hover:bg-lime-600 hover:text-xl hover:shadow-sm  `}
                       >
                         {item.icon ? <item.icon /> : null} {item.name}
                       </button>

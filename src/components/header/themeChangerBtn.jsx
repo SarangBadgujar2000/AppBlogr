@@ -26,7 +26,7 @@ export default function ThemeChangerBtn({ className }) {
   return (
     <button
       className={`
-        bg-[#f4f4ff] dark:bg-[#2e2e31] p-3 rounded-full dark:bg-gray-800"
+        bg-[#f4f4ff] hover:bg-gray-400 dark:bg-[#2e2e31] p-3 rounded-full dark:bg-gray-800"
         ${
           isDarkMode
             ? "text-yellow-500 dark:text-yellow-200"
